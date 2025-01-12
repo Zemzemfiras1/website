@@ -4,7 +4,7 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
 ---
 
 <Page title="Our Ambassadors">
-  <h1>Nextflow Ambassadors</h1>
+  <h1 id="ambassadors">Nextflow Ambassadors</h1>
 
   <div class="container">
     <div class="row">
@@ -105,6 +105,16 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
         Charalampos is a Senior Data Scientist in Oncology at Novartis Biomedical Research in Cambridge, MA. He earned
         his PhD from <a href="https://www.nyu.edu/">NYU</a>. He specializes in gene dysregulation in cancer and how to
         exploit it therapeutically.
+      </AmbassadorCard>
+
+      <AmbassadorCard name="Colby T. Ford" img="Colby_Ford.jpg" country="us" github="colbyford" linkedin="colbyford">
+        <a href="https://colbyford.com" target="_blank">Colby T. Ford, Ph.D.</a> is a Principal Consultant at <a
+          href="https://tuple.xyz"
+          target="_blank">Tuple</a
+        >. He is the author of <a
+          href="https://www.oreilly.com/library/view/genomics-in-the/9781098139032/"
+          target="_blank">Genomics in the Azure Cloud</a
+        > (O'Reilly, 2022) and specializes in cloud architecture for large bioinformatics workloads.
       </AmbassadorCard>
 
       <AmbassadorCard
@@ -213,6 +223,11 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
         and in the nf-core maintainers team.
       </AmbassadorCard>
 
+      <AmbassadorCard name="Florian Heyl" img="heylf.jpg" country="de" github="heylf" linkedin="florian-heyl">
+        Florian Heyl is a Bioinformatician at DKFZ, Germany. He is bridging between nf-core, GHGA, Galaxy, and the
+        single cell community. He holds a PhD in Bioinformatics from Freiburg University, Germany.
+      </AmbassadorCard>
+
       <AmbassadorCard
         name="Francesco Lescai"
         img="francesco_nxf.png"
@@ -267,6 +282,18 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       </AmbassadorCard>
 
       <AmbassadorCard
+        name="Gisela Pattarone"
+        img="GiselaPattarone.png"
+        country="ar"
+        github="gpattarone"
+        linkedin="giselapattarone"
+      >
+        Gisela is a Bioinformatician at <a href="http://www.cnea.gov.ar/" target="_blank">CNEA</a>, where she designs
+        and executes a meta-analysis project focused on gene expression profiles to identify diagnostic and therapeutic
+        biomarkers in pediatric gliomas.
+      </AmbassadorCard>
+
+      <AmbassadorCard
         name="Graeme Grimes"
         img="ggrimes.jpg"
         country="gb"
@@ -294,6 +321,18 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       >
         Hemanoel is Bioinformatics Engineer at <a href="https://gen-t.science/" target="_blank">Gen-t</a>, where he
         develops Nextflow pipelines to analyze human genetics data, enhancing Precision Medicine efforts in Brazil.
+      </AmbassadorCard>
+
+      <AmbassadorCard
+        name="Houcemeddine Othman"
+        img="houcem.png"
+        country="tn"
+        github="hothman"
+        linkedin="houcemeddine-othman-5502b541"
+        twitter="Houcemeddi61361"
+      >
+        Houcemeddine Othman is an Assistant Professor of Bioinformatics from Tunisia, working on the development of
+        workflows for clinical genomics.
       </AmbassadorCard>
 
       <AmbassadorCard
@@ -386,21 +425,6 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       >
         Juan is an <a href="https://www.ugaldelab.org" target="_blank">assistant professor</a> at the Center for Bioinformatics
         and Integrative Biology, at Universidad Andres Bello, Santiago, Chile.
-      </AmbassadorCard>
-
-      <AmbassadorCard
-        name="Ken Brewer"
-        img="kbrewer.jpg"
-        country="us"
-        github="kenibrewer"
-        linkedin="kenibrewer"
-        twitter="kenibrewer"
-      >
-        Ken is a open-source developer and advocate active within the areas of genomics and high-content imaging
-        microscopy. He is a Sr. Software Engineer on the Bioinformatics Platform team at <a
-          href="https://www.genedx.com/"
-          target="_blank">GeneDx</a
-        >.
       </AmbassadorCard>
 
       <AmbassadorCard
@@ -645,6 +669,20 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       </AmbassadorCard>
 
       <AmbassadorCard
+        name="Opeyemi Alayande"
+        img="opeyemi_alayande.jpg"
+        country="ng"
+        github="ycode-sh"
+        linkedin="yemistats"
+        twitter="@ycode_sh"
+      >
+        Opeyemi creates and uses Nextflow-powered tools for infectious disease management at the <a
+          href="https://dfg-mrtc.org/"
+          target="_blank">Damien Foundation Genomics and Mycobacteria Research and Training centre</a
+        >, located in the <a href="http://www.ui.edu.ng/" target="_blank">University of Ibadan</a>.
+      </AmbassadorCard>
+
+      <AmbassadorCard
         name="Phil Ewels"
         img="phil.jpg"
         country="se"
@@ -770,14 +808,6 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       />
 
       <AmbassadorCard
-        name="Sateesh Peri"
-        img="SateeshPeri.png"
-        country="us"
-        github="sateeshperi"
-        linkedin="sateesh-peri-b0130476"
-      />
-
-      <AmbassadorCard
         name="Simon Murray"
         img="simon_murray.jpg"
         country="gb"
@@ -826,6 +856,15 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
         and equity in health-care.
       </AmbassadorCard>
 
+      <AmbassadorCard name="Ziad Al-Bkhetan" img="Ziad.jpg" country="au" github="ziadbkh" linkedin="ziad-al-bkhetan">
+        <a href="https://www.biocommons.org.au/lb-ziad">Ziad</a> is the Product Manager, Bioinformatics Platforms at <a
+          href="http://biocommons.org.au/">Australian BioCommons</a
+        >. He leads several bioinformatics focused services such as <a
+          href="https://www.biocommons.org.au/seqera-platform">the Australian Nextflow Seqera Service</a
+        > and
+        <a href="https://www.biocommons.org.au/ables">ABLeS</a>.
+      </AmbassadorCard>
+
       <AmbassadorCard
         name="Zohaib Anwar"
         img="zohaibanwar.jpeg"
@@ -841,7 +880,7 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       </AmbassadorCard>
     </div>
   </div>
-  <h1>Ambassador Program Staff</h1>
+  <h1 id="program-staff">Ambassador Program Staff</h1>
 
   <div class="container">
     <div class="row">
@@ -873,23 +912,19 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
       </AmbassadorCard>
 
       <AmbassadorCard
-        name="Chris Hakkaart"
-        img="chris_h.png"
-        country="at"
-        github="christopher-hakkaart"
-        linkedin="christopher-hakkaart"
-        twitter="Chris_Hakk"
+        name="Ken Brewer"
+        img="kbrewer.jpg"
+        country="us"
+        github="kenibrewer"
+        linkedin="kenibrewer"
+        twitter="kenibrewer"
       >
-        Chris Hakkaart is a Developer Advocate at <a href="https://wwww.seqera.io" target="_blank">Seqera</a>, working
-        on strengthening the Nextflow and nf-core communities. He holds a PhD in Genetics from the <a
-          href="https://www.otago.ac.nz/"
-          target="_blank">University of Otago</a
-        >, New Zealand. He is also a member in the <a href="https://nf-co.re/" target="_blank">nf-core</a>
-        <a href="https://nf-co.re/governance#core-team" target="_blank">core team</a>.
+        Ken is a open-source developer and advocate active within the areas of genomics and high-content imaging
+        microscopy. He is a Senior Developer Advocate at Seqera.
       </AmbassadorCard>
     </div>
   </div>
-  <h1>Program Alumni</h1>
+  <h1 id="alumni">Program Alumni</h1>
   Individuals who are no longer active Nextflow Ambassadors but have participated in the program in the past.
   <div class="container">
     <div class="row">
@@ -933,6 +968,13 @@ import AmbassadorCard from "@components/AmbassadorCard.astro";
         country="de"
         github="jasmezz"
         linkedin="jasmin-frangenberg"
+      />
+      <AmbassadorCard
+        name="Sateesh Peri"
+        img="SateeshPeri.png"
+        country="in"
+        github="sateeshperi"
+        linkedin="sateesh-peri-b0130476"
       />
     </div>
   </div>
