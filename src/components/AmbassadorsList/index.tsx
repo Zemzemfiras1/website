@@ -100,6 +100,14 @@ const ambassadors: Ambassador[] = [
       'Justice is a Bioinformatician and a ML/AI engineer at the <a href="https://noguchi.ug.edu.gh" target="_blank" >Noguchi Memorial Institute For Medical Research</a >. He is currently on the <a href="https://pangens.org" target="_blank" >PANGenS Project.</a>',
   },
   {
+    name: "Amrei Binzer-Panchal",
+    img: "Amrei.png",
+    country: "se",
+    github: "amrei-bp",
+    children:
+      'Amrei is a Bioinformatician at the <a href="https://www.slubi.se" target="_blank" >Bioinformatics Infrastructure</a > of the <a href="https://www.slu.se/" target="_blank" >Swedish University for Agricultural Sciences</a >, where she supports researchers and teaches reproducible bioinformatics, including Nextflow.',
+  },
+  {
     name: "Anabella Trigila",
     img: "anabella.jpeg",
     country: "ar",
@@ -523,6 +531,24 @@ const ambassadors: Ambassador[] = [
       "Kimberly is a PhD candidate in Bioinformatics and Computational Biology at Stellenbosch University, South Africa. She has experience in clinical proteomics and human genetics, specifically in the field of rare diseases.",
   },
   {
+    name: "Kim Huy Vo",
+    img: "kimhuyvo.png",
+    country: "vn",
+    github: "vkhuy",
+    linkedin: "kimhuyvo",
+    children:
+      'Kim Huy is a bioinformatician at <a href="https://www.ktest.vn/" target="_blank">KTest Science Co. Ltd</a>, with hands-on experience in developing robust analysis pipelines for both long-read and short-read sequencing data.',
+    },
+  {
+    name: "Kobe Lavaerts",
+    img: "kobelavaerts.png",
+    country: "be",
+    github: "kobelavaerts",
+    linkedin: "kobe-lavaerts-170489191",
+    children:
+      'Kobe Lavaerts is a staff bioinformatician at the genomics core facility <a href="https://nucleomicscore.sites.vib.be/en" target="_blank" >Nucleomics Core</a > in <a href="https://vib.be/en" target="_blank" >VIB</a >, Belgium. He develops and maintains the Nextflow pipelines used in the core facility. He also teaches the <a href="https://github.com/vib-tcp/nextflow-workshop" target="_blank" >VIB Nextflow training</a > twice a year.',
+  },
+  {
     name: "Kristina K. Gagalova",
     img: "KristinaGagalova.jpg",
     country: "au",
@@ -570,7 +596,7 @@ const ambassadors: Ambassador[] = [
     github: "lynnlangit",
     linkedin: "lynnlangit",
     children:
-      'Lynn is an independent cloud architect supporting bioinformatics teams world-wide. She is also part of <a href="https://dimi-lab.github.io/team/" target="_blank" >DIMI Lab</a >.',
+      'Lynn is an independent cloud AI architect building tools for bioinformatics teams world-wide. She is also part of <a href="https://dimi-lab.github.io/team/" target="_blank" >DIMI Lab</a >.',
   },
   {
     name: "Louis Le Nézet",
@@ -774,6 +800,15 @@ const ambassadors: Ambassador[] = [
       'Pritam is a Postdoctoral scholar in the <a href="https://profiles.stanford.edu/pritam-panda"> Department of Anesthesiology, Perioperative and Pain Medicine</a> at <a href="https://med.stanford.edu/profiles/pritam-panda"> Stanford University, School of Medicine</a>, California, designing novel anesthetics suitable for battlefield conditions.',
   },
   {
+    name: "Rachel Griffard-Smith",
+    img: "rachelgriffardsmith.jpg",
+    country: "us",
+    github: "rachelgriffard",
+    linkedin: "rachelgriffard",
+    children:
+      'Rachel is a bioinformatician in the <a href="https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science.html"> Department of Biostatistics & Data Science</a> at the University of Kansas Medical Center in Kansas City, Kansas analyzing and developing tools for microbiome data and other next generation sequencing data.',
+  },
+  {
     name: "Ramiro Barrantes Reynolds",
     img: "ramiro.jpg",
     country: "us",
@@ -830,6 +865,18 @@ const ambassadors: Ambassador[] = [
       'Sameesh Kher is a Bioinformatician at <a href="https://www.ghga.de/">GHGA</a> in Heidelberg. He is the developer of the <a href="https://github.com/nf-core/spatialxe">nf-core/spatialxe</a> pipeline.',
   },
   {
+    name: "Samuel Ruiz-Pérez",
+    img: "samuelruizperez.jpg",
+    country: "mx",
+    github: "samuelruizperez",
+    linkedin: "samuelruizperez",
+    twitter: "samuelruizperez",
+    mastodon: "https://genomic.social/@samuelruizperez",
+    bluesky: "https://bsky.app/profile/samuelruizperez.bsky.social",
+    children:
+      'Sam is a MSc in Bioinformatics student at the University of Copenhagen and a bioinformatician at the <a href="https://www.cancer.dk/danish-cancer-institute/research-groups/epigenome-replication-and-maintenance/" target="_blank"> Center for Epigenetic Cell Memory (EpiC)</a>, Danish Cancer Institute. He works with nascent DNA sequencing data and develops pipelines and machine learning models to study replication and epigenome maintenance.',
+  },
+  {
     name: "Sanzida Akhter",
     img: "sanzida.jpg",
     country: "bd",
@@ -881,7 +928,15 @@ const ambassadors: Ambassador[] = [
     github: "sofstam",
     linkedin: "sofia-stamouli-a22b5477",
   },
-
+  {
+    name: "Thai-Huy Tran",
+    img: "thai-huytran.jpg",
+    country: "vn",
+    github: "huymtraan",
+    linkedin: "thaihuy-tran",
+    children:
+      'Thai-Huy Tran is a final-year student at International University (VNU-HCM), Vietnam, with experience developing cfDNA data analysis pipelines and performing single-cell RNA analysis for cancer biology.',
+  },
   {
     name: "Ziad Al-Bkhetan",
     img: "Ziad.jpg",
@@ -890,6 +945,15 @@ const ambassadors: Ambassador[] = [
     linkedin: "ziad-al-bkhetan",
     children:
       '<a href="https://www.biocommons.org.au/lb-ziad">Ziad</a> is the Product Manager, Bioinformatics Platforms at <a href="http://biocommons.org.au/">Australian BioCommons</a >. He leads several bioinformatics focused services such as <a href="https://www.biocommons.org.au/seqera-platform">the Australian Nextflow Seqera Service</a > and <a href="https://www.biocommons.org.au/ables">ABLeS.</a>',
+  },
+  {
+    name: "Ze Yu",
+    img: "zeyu.png",
+    country: "us",
+    github: "EZUY",
+    linkedin: "ze-yu-9024b215b",
+    children:
+      'Ze Yu is a Computational biologist at UT Southwestern <a href="https://labs.utsouthwestern.edu/bioinformatics-lab" target="_blank">Bioinformatics Lab</a>, focusing on scalable genomics workflows and production-grade Nextflow DSL2 pipelines.',
   },
   {
     name: "Zohaib Anwar",
